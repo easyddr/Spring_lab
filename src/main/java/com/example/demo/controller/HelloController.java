@@ -10,6 +10,6 @@ public class HelloController {
     @GetMapping("/")
     @ResponseBody
     String hello() {
-        return "Hello World";
+        return "Hello World" + "<a href=\"/index.html\">Команда</a>";
     }
 }
